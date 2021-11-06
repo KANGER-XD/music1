@@ -1,19 +1,17 @@
-# © Mr_D_P
-
+import os
+import pyrogram
 from pyrogram import Client, filters
-
 import yt_dlp
 from youtube_search import YoutubeSearch
 import requests
 
-import os
 
 
 bot = Client(
-    'MissRose',
+    'songbot',
     bot_token = Config.BOT_TOKEN,
-    api_id = Config.API_ID,
-    api_hash = Config.API_HASH
+    api_id = 5891777,
+    api_hash = '64fa91f5fafd43a3b9dc504f0e2a4d70'
 )
 
 # Time 😒
