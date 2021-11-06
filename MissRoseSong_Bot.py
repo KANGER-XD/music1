@@ -24,6 +24,7 @@ def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
+#start 
 
 
 #Download
@@ -75,7 +76,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        tana = f'🎵**Title**: [{title[:35]}]({link})\n⏰**Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\nUploaded By @sillybots'
+        tana = f'🎵**Title**: [{title[:35]}]({link})\n⏰**Duration**: `{duration}`\n👀 **Views**: `{views}`\nUploaded By @sillybots'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
