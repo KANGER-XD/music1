@@ -5,7 +5,7 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
-import yt_dlp
+import yt-dlp
 from youtube_search import YoutubeSearch
 import requests
 
