@@ -27,7 +27,7 @@ def time_to_seconds(time):
 #start 
 @bot.on_message(filters.command('start'))
 async def start(bot, message):
-    tana = 'Hey,{update.from.mention.user}\n You can use me Download Mp3 files From Youtube.\n\n ©️ @sillybots'
+    tana = 'Hey,🤩 I am Songbot2.0\n You can use me Download Mp3 files From Youtube.For Example - /song chale ana \n\n ©️ @sillybots'
     await message.reply(tana, quote=True)
     return
 
