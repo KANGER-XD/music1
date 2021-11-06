@@ -1,0 +1,15 @@
+{
+  "name": "Auto-Ban",
+  "description": "To ban Member After Joining.",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter bot token.",
+      "value": ""
+    }
+  },
+   "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
