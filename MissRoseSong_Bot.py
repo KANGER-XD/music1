@@ -7,12 +7,17 @@ import requests
 
 
 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = 5891777
+API_HASH = '64fa91f5fafd43a3b9dc504f0e2a4d70'
+
 bot = Client(
-    'songbot',
-    bot_token = Config.BOT_TOKEN,
-    api_id = 5891777,
-    api_hash = '64fa91f5fafd43a3b9dc504f0e2a4d70'
-)
+        "hide",
+        bot_token=BOT_TOKEN,
+	api_hash=API_HASH,
+        api_id=API_ID
+    )
+
 
 # Time 😒
 def time_to_seconds(time):
